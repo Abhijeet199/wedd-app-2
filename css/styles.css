@@ -78,7 +78,7 @@
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url('/img/landing.jpg');
+    background-image: url('/img/landing.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 81% 50%;
@@ -229,7 +229,7 @@
 .invite {
     width: 100%;
     padding-top: 56.25%;
-    background-image: url('/img/invitationbg.jpg');
+    background-image: url('/img/invitationbg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
