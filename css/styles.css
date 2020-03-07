@@ -62,7 +62,7 @@
 }
 
 .heading h1 {
-    letter-spacing: 5px;
+    letter-spacing: 0.1em;
     margin-bottom: 10px;
     font-size: 3rem;
     margin-top: 4rem;
@@ -110,7 +110,7 @@
     color: #fff;
     z-index: 2;
     font-family: 'Great Vibes';
-    letter-spacing: 5px;
+    letter-spacing: 0.1em;
     font-weight: 400;
 }
 
@@ -199,6 +199,7 @@
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 1rem;
+    user-select: none;
 }
 
 .groom-image img, .bride-image img {
@@ -207,7 +208,7 @@
 
 .couple-info h1 {
     font-family: 'Great Vibes';
-    letter-spacing: 5px;
+    letter-spacing: 0.1em;
     font-size: 2rem;
 }
 
@@ -215,6 +216,7 @@
     font-family: 'Roboto', sans-serif;
     margin-top: .4rem;
     font-size: 1.3rem;
+    letter-spacing: 0.04em;
 }
 
 .invite-container {
@@ -258,7 +260,7 @@
     line-height: 3.2rem;
     color: #fff;
     z-index: 3;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
 }
 
 
@@ -274,12 +276,13 @@
 .address img {
     width: 100px;
     margin-bottom: .6rem;
+    user-select: none;
 }
 
 .address h1 {
     margin-bottom: .4rem;
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.05em;
     font-size: 1.6rem;
 }
 
@@ -287,6 +290,8 @@
     max-width: 250px;
     margin: auto;
     font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
 }
 .address p:last-child {
     margin-bottom: 3rem;
@@ -376,7 +381,6 @@ align-items: center;
 
 
     .heading h1 {
-        letter-spacing: 4px;
         font-size: 2.8rem;
     }
     
@@ -390,7 +394,6 @@ align-items: center;
     }
 
     .couple-info h1 {
-        letter-spacing: 4px;
         font-size: 1.8rem;
     }
     
@@ -400,7 +403,6 @@ align-items: center;
     }
     .invite p {
         font-size: 2.4rem;
-        letter-spacing: 4px;
     }
 
 
@@ -437,7 +439,6 @@ align-items: center;
     }
 
     .heading h1 {
-        letter-spacing: 4px;
         font-size: 2.6rem;
     }
     
@@ -485,10 +486,6 @@ align-items: center;
         flex-direction: column;
     }
 
-    .invite p {
-        line-height: 2.8rem;
-    }
-
     .groom {
         margin-bottom: 4rem;
     }
@@ -511,7 +508,6 @@ align-items: center;
 /* max-width: 600px */
 @media only screen and (max-width: 600px) {
     .landing-page h1 {
-        /* font-size: 3.5rem; */
         font-size: 3.3rem;
     }
 
@@ -533,7 +529,6 @@ align-items: center;
     }
 
     .couple-info h1 {
-        letter-spacing: 4px;
         font-size: 1.7rem;
     }
     
@@ -585,9 +580,6 @@ align-items: center;
 
 /* max-width: 514px */
 @media only screen and (max-width: 514px) {
-    .bold {
-        letter-spacing: 5px;
-    }
     
     .heading h1 {
         font-size: 2.2rem;
@@ -603,7 +595,6 @@ align-items: center;
     }
 
     .couple-info h1 {
-        letter-spacing: 4px;
         font-size: 1.5rem;
     }
     
