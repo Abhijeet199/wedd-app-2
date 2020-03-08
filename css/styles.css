@@ -46,7 +46,7 @@
 }
 .bold {
     font-weight: bolder;
-    letter-spacing: 7px;
+    letter-spacing: 0.11em;
 }
 .heading {
     text-align: center;
