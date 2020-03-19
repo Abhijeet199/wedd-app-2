@@ -330,6 +330,8 @@
     margin-top: .9rem;
     margin-bottom: 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     height: 1.1rem;
     overflow: hidden;
 }
