@@ -14,3 +14,14 @@ var swiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     },
 });
+
+
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+var element = document.querySelectorAll('.help');
+if (isMobile) {
+    element[0].style.display = 'flex';
+    element[1].style.display = 'flex';
+} else {
+    element[0].style.display = 'none';
+    element[1].style.display = 'none';
+}
