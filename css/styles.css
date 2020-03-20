@@ -982,8 +982,10 @@ p {
     margin-left: 1.2rem;
 }
 
-.indent img {
-    width: 10px;
+.indent i {
+    font-size: 1rem;
+    margin-right: .3rem;
+    color: #333;
 }
 
 .step2 div {

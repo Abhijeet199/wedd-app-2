@@ -16,5 +16,5 @@ copybutton.addEventListener('click', () => {
 
     setTimeout(() => {
         copybutton.textContent = 'Copy'
-    }, 10000);
+    }, 20000);
 })
